@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Classifier Corona</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="container">
+  <header>
+      <lottie-player id="animation-home" style="height: 350px;" loop autoplay></lottie-player>
+  </header>
+  <main>
+    <h3 class = "text-center mt-5">Data Terkait Covid</h3>
+    <center>
+      <div class = "col-sm-11 col-md-6">
+        <input id="inputSearch" class="form-control" type="search" placeholder="Search Provinsi ..." autofocus>
+        <div class = "col-md-5 mt-3">
+          <button id="buttonSearch" type="submit" class="btn btn-outline-primary btn-block">Search</button>
+        </div>
+      </div>
+    </center>
+    <lottie-player id="animation-loading" style="height: 400px; margin: 24px;" loop autoplay></lottie-player>
+    <h3 id="not-found-state" class = "text-center mt-5">Data Tidak Tersedia</h3>
+    <div id="body-char"></div>
+  </main>
+</div>
+<center>
+  <div class="row" id="body-table"></div>
+</center>
+</body>
+</html>
